@@ -3,6 +3,15 @@
 	overflow: hidden;
 }
 
+.navs a.active {
+	color: white;
+	background-color: maroon;	
+}
+
+.navs a:hover {
+	color: white;
+	background-color: black;
+}
 
 
 .navs a {
@@ -12,18 +21,4 @@
 	padding: 20px;
 	text-decoration: none;
 	font-size: 30px;	
-}
-
-
-
-.navs a:hover {
-	background-color: black;
-	color: white;
-}
-
-
-
-.navs a.active {
-	background-color: maroon;
-	color: white;
 }
